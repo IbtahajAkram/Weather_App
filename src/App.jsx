@@ -63,7 +63,7 @@ const Weather = () => {
                   : "Weather Detail Show here!"
               }
             </div>
-            <div style={{ marginTop: "-14px" }} className="weather-description">
+            <div className="weather-description">
               {timing}
             </div>
             <div className="weather-description">
