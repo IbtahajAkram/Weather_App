@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(95deg, #f5af19, #f12711);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 63px;
+    height: 80vh;
+    color: white;
+    font-weight: 600;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.weather-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 50px;
+    height: 459px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 889px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.weather-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.date-time {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.weather-icon {
+    font-size: 4rem;
+    margin-left: 10px;
+}
+
+.weather-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    margin-left: -9%;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    padding: 7px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    width: 110%;
+}
+
+.weather-descriptionTemp {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: -8%;
+    margin-bottom: 20px;
+    padding: 1px 0;
+    line-height: 18px;
+    /* background: rgba(222, 222, 222, 0.25); */
+    border-radius: 10px;
+    width: 115%;
+    padding-left: -15px;
+    margin-top: -8px;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: -9%;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    width: 110%;
+
+}
+
+.detail {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.detail span:first-child {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.hourly-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
+.daily-forecast {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
+#Time {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#date-time {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#imgClear {
+    height: 39vh;
+    width: 49vh;
+    margin-top: -34px;
+    border: none;
+}
+
+#imgCloud {
+    height: 37vh;
+    width: 52vh;
+    margin-top: -34px;
+    border: none;
+}
+
+#imgRain {
+    height: 37vh;
+    width: 52vh;
+    margin-top: -34px;
+    border: none;
+}
+
+.day {
+    text-align: center;
+}
+
+.day span:first-child {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.day span:nth-child(2),
+.day span:nth-child(3) {
+    display: block;
+    font-size: 1rem;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 100%;
+    margin-left: -9%;
+    margin-top: -15px;
+
+}
+
+#tempWeather {
+    margin-top: -19px;
+}
+
+.search-button {
+    padding: 10.2px 20px;
+    font-size: 0.9rem;
+    border: none;
+    background: #fdfdfd;
+    color: #000000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    margin-right: -21px;
+    margin-top: -15.2px;
+}
