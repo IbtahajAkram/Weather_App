@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 // import { FaSearch } from 'react-icons/fa';
 import './Weather.css';
 import Cloud from './asset/Clouds.png'
-import searchicon from './asset/searchicon.png'
 import Rain from './asset/Rain.png'
 import Clear from './asset/Clear.png'
+import searchicon from './asset/searchicon.jpeg'
 import mist from './asset/mist.png'
 const Weather = () => {
   const [currentWeather, setCurrentWeather] = useState(null);
@@ -43,7 +43,7 @@ const Weather = () => {
           <div className="weather-card">
             <div className="search-container">
               <input type="text" className="search-input" value={InputWeatherSearch} id="search-input" onChange={WeatherSearching} placeholder="Enter City or Location" />
-              <button onClick={GetWeatherUpdate} className="search-button" id="search-button"><img id='' src={searchicon} /></button>
+              <button onClick={GetWeatherUpdate} className="search-button" id="search-button"><img src={searchicon} id='searchicon' /></button>
             </div>
 
             <div className='weather-descriptionTemp' >
